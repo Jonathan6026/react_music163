@@ -3,15 +3,15 @@
 This project was Create By React!!!👀
 
 # Technology Stack（技术栈）
-[√] react
-[√] redux
-[√] axios
-[√] Router
-[√] styled
-[√] Webpack
-[√] craco
-[√] Hooks
-[ ] TypeScript (nice to have)
+[√] react\
+[√] redux\
+[√] axios\
+[√] Router\
+[√] styled\
+[√] Webpack\
+[√] craco\
+[√] Hooks\
+[ ] TypeScript (nice to have)\
 
 ## Available Scripts
 
@@ -38,11 +38,11 @@ See the section about [deployment](https://facebook.github.io/create-react-app/d
 
 ## Project Page
 
-[ ] login
-[ ] logt out
-[ ] welcome page
-[√] menu
-[√] HeaderWrapper
+[ ] login\
+[ ] logt out\
+[ ] welcome page\
+[√] menu\
+[√] HeaderWrapper\
 
 
 

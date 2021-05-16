@@ -2,7 +2,8 @@ import React,{memo} from 'react'
 
 //从localdata导入路由映射headerLinks
 import {headerLinks} from "@/common/local-data"
-
+import { Input,Button  } from 'antd';
+import {SearchOutlined} from "@ant-design/icons"
 import {
     HeaderWrapper,
     HeaderLeft,
@@ -47,7 +48,11 @@ export default memo(function JLAppHeader(){
                         })}
                     </div>
                 </HeaderLeft>
-                <HeaderRight>右</HeaderRight>
+                <HeaderRight>
+                    <Input placeholder="Basic usage" className="search" prefix={<SearchOutlined />} />
+                    <Button className="headerButton">创作者中心</Button>
+                    <Button className="headerButton headerLoginButton">登录</Button>
+                </HeaderRight>
             </div>
             <div className="divider">
 

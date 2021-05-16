@@ -73,7 +73,7 @@ export const HeaderLeft = styled.div`
         bottom: -1px;
         left: 50%;
         transform: translate(-50%, 0);
-        background-image: url('${require('@/assets/img/sprite_01.png').defaultA}');
+        background-image: url('${require('@/assets/img/sprite_01.png').default}');
         background-position: -226px 0;
       }
     }
@@ -85,5 +85,22 @@ export const HeaderLeft = styled.div`
 
 //Header右
 export const HeaderRight = styled.div`
-
+  display: flex;
+  align-items: center;
+  color: #ccc;
+  font-size: 12px;
+  .search {
+    height: 32px;
+    width: 158px;
+    border-radius: 16px;
+  }
+  .headerButton {
+    color: white;
+    margin-left: 15px;
+    border-radius: 10px;
+    background:rgba(0,0,0,1);
+  }
+  .headerLoginButton {
+    border: none;
+  }
 `
