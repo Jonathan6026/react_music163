@@ -8,7 +8,7 @@
 <br />
 <p align="center">
   <a href="https://github.com/Jonathan6026/react_music163">
-    <img src="网易云音乐-01.png" alt="Logo" width="176" height="100" ;>
+    <img src="网易云音乐-01.png" alt="Logo" width="200" height="200" ;>
   </a>
 
   <h3 align="center">React-Music163</h3>
