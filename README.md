@@ -1,7 +1,19 @@
 # 网易云（Music163）development with React App
+![](https://img.shields.io/badge/React-xxx-blue)
+![](https://img.shields.io/badge/npm-xxx-black)
+![](https://img.shields.io/badge/redux-xxx-blue)
+![](https://img.shields.io/badge/Hooks-xxx-blue)
+
 
 This project was Create By React!!!👀
-
+```js
+const music163 = () => {
+    return(
+        console.log("而且也是make by JS")
+    )
+}
+```
+PS: 整个项目借鉴了CodeWhy项目，感谢！
 # Technology Stack（技术栈）
 [√] react\
 [√] redux\
