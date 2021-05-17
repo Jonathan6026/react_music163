@@ -8,13 +8,13 @@
 <br />
 <p align="center">
   <a href="https://github.com/Jonathan6026/react_music163">
-    <img src="src/assets/sprite_01.png" alt="Logo" width="176" height="69" background-position="0 0" ;>
+    <img src="网易云音乐-01.png" alt="Logo" width="176" height="69" ;>
   </a>
 
-  <h3 align="center">Best-README-Template</h3>
+  <h3 align="center">React-Music163</h3>
 
   <p align="center">
-    111111111111111111
+    👉:suspect: :"喂！朋友！三点几啦！⏰☕🍋"👈
     <br />
     <a href="https://github.com/Jonathan6026/react_music163"><strong>Explore the docs »</strong></a>
     <br />
