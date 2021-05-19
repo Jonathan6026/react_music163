@@ -18,6 +18,10 @@ const routes = [
         }
     },
     {
+        path:"/discover",
+        component:JLDiscover
+    },
+    {
         path:"/mine",
         component:JLMine
     },
