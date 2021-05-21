@@ -75,11 +75,11 @@ export const dicoverMenu = [
   },
   {
     title: '歌单',
-    link: '/discover/songs',
+    link: '/discover/playlist',
   },
   {
     title: '主播电台',
-    link: '/discover/djradio',
+    link: '/discover/radio',
   },
   {
     title: '歌手',
@@ -87,7 +87,7 @@ export const dicoverMenu = [
   },
   {
     title: '新碟上架',
-    link: '/discover/album',
+    link: '/discover/new-album',
   },
 ]
 

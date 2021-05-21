@@ -5,7 +5,11 @@ import {
     DiscoverItem,DiscoverList,DiscoverWrapper
 } from './style'
 import { NavLink } from 'react-router-dom'
-export default memo(function JLDiscover() {
+import { renderRoutes } from 'react-router-config'
+
+export default memo(function JLDiscover(props) {
+    const {route} = props
+
     return(
         <DiscoverWrapper>
             <DiscoverList className="w1100">
@@ -19,22 +23,8 @@ export default memo(function JLDiscover() {
                     })
                 }
             </DiscoverList>
+            {renderRoutes(route.routes)}
         </DiscoverWrapper>
-    //     <DiscoverList>
-    //     <div className="top">
-    //         <DiscoverItem className="w1100">
-    //             {
-    //                 dicoverMenu.map((item,index)=> {
-    //                     return(
-    //                         <div className="item" key={item.title}>
-    //                             <NavLink to={item.link}>{item.title}</NavLink>
-    //                         </div>
-    //                     )
-    //                 })
-    //             }
-    //         </DiscoverItem>
-    //     </div>     
-    // </DiscoverList>    
-        
+  
     )
 })

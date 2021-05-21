@@ -6,7 +6,7 @@ export const DiscoverWrapper = styled.div`
 `
 export const DiscoverList = styled.div`
   display: flex;
-  padding: 0 0 0 175px;
+  padding: 0 0 4px 175px;
   position: relative;
   top: 3px;
   
