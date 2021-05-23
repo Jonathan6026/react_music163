@@ -16,11 +16,11 @@ import { Redirect } from "react-router"
 
 const routes = [
     {
-        path:"/",
+        path: "/",
         // 不加有可能后续路由辨识错误
-        exact:true,   
+        exact: true,   
         // component:JLDiscover
-        render:() => {
+        render: () => {
             return(
                 <Redirect to="/discover"></Redirect>   //重定向
             )
@@ -34,7 +34,9 @@ const routes = [
                 path:"/discover",
                 exact: true,
                 render: ()=> {
-                    <Redirect to="/discover/recommend"/>
+                   return(
+                        <Redirect to="discover/recommend"/>
+                   )
                 }
             },
             {
