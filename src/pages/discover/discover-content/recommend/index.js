@@ -6,7 +6,7 @@ import {getTopBannerAction} from "./store/actionCreators"
 
 
 function JLRecommend(props){
-    const {getBanners} = props
+    const {getBanners,topBanners} = props
 
     useEffect(() => {
         getBanners()
@@ -14,7 +14,7 @@ function JLRecommend(props){
 
     return(
         <div>
-            <h2>JLRecommend</h2>
+            <h2>JLRecommend:{topBanners.length}</h2>
         </div>
     )
 }
