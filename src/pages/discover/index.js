@@ -13,6 +13,7 @@ import request from "@/services/request"  //导入request
 import { NavLink } from 'react-router-dom'
 import { renderRoutes } from 'react-router-config'
 
+
 export default memo(function JLDiscover(props) {
     const {route} = props
 
@@ -39,6 +40,5 @@ export default memo(function JLDiscover(props) {
             </DiscoverList>
             {renderRoutes(route.routes)}
         </DiscoverWrapper>
-  
     )
 })
